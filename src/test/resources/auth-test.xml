@@ -2,11 +2,11 @@
 <suite name="Demo Tests">
     <test name="Auth Test">
         <classes>
-            <class name="com.restassured.test.AuthTest" >
-            <methods>
-                <include name="testAuthentication"/>
-            </methods>
-            </class>
+            <class name="com.restassured.test.AuthTest" />
+<!--            <methods>-->
+<!--                <include name="testAuthentication"/>-->
+<!--            </methods>-->
+<!--            </class>-->
         </classes>
     </test>
 </suite>
