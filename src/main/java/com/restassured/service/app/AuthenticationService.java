@@ -1,4 +1,4 @@
-package com.restassured.service;
+package com.restassured.service.app;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
