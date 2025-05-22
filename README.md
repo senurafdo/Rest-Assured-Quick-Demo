@@ -1,7 +1,4 @@
-## ⚠️ Important: Steps to update the APIs
-* Go to `com.restassured.example.util.RestClient`
-* **Uncomment line 131** to enable your actual API functionality.
-* Remove the **"TODO: "** comment, as it is no longer relevant
+
 
 ## How to run tests
 1. Using IntelliJ IDEA
