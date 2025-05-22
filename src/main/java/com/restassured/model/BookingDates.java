@@ -1,4 +1,16 @@
 package com.restassured.model;
 
-public record BookingDates() {
+import com.fasterxml.jackson.annotation.JsonProperty;
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class BookingDates {
+
+    @JsonProperty("checkin")
+    private String checkIn;
+
+    @JsonProperty("checkout")
+    private String checkOut;
 }
